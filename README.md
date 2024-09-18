@@ -1,2 +1,4 @@
 # resumolab01
 Este repositório contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO 
+
+Durante o laboratório, criei uma máquina virtual no Azure, seguindo cuidadosamente o passo a passo apresentado na aula. Preenchi o detalhamento da instância, optando por uma configuração sem redundância (sem zona de disponibilidade) e utilizei a imagem do Windows 11. Configurei as regras de escalabilidade para que, ao atingir 80% de uso da CPU, fossem adicionadas duas instâncias, e para que fossem removidas duas instâncias quando o uso da CPU caísse abaixo de 40%. Em seguida, validei as extensões da VM, conforme demonstrado por Valeria durante a aula. Após a criação da máquina virtual, analisei o processo de criação de um pool de hosts e, ao concluir as atividades, realizei a exclusão da VM.
